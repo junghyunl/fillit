@@ -1,8 +1,11 @@
+import Header from '@/components/common/Header';
+
 const Home = () => {
   return (
-    <div className="font-bold">
+    <>
+      <Header left="home" right="notification" />
       <h1>Home</h1>
-    </div>
+    </>
   );
 };
 

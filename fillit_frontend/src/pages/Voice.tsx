@@ -1,8 +1,11 @@
+import Header from '@/components/common/Header';
+
 const Voice = () => {
   return (
-    <div>
+    <>
+      <Header left="home" right="notification" />
       <h1>Voice</h1>
-    </div>
+    </>
   );
 };
 
