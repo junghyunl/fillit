@@ -1,10 +1,15 @@
 import Header from '@/components/common/Header';
+import { BubbleBackground } from '../components/decorations/BubbleBackground';
+import VoiceBubbleList from '../components/VoiceBubbleList';
 
 const Voice = () => {
   return (
     <>
       <Header left="home" right="notification" />
-      <h1>Voice</h1>
+      <div className="relative w-full h-screen overflow-hidden">
+        <BubbleBackground />
+        <VoiceBubbleList />
+      </div>
     </>
   );
 };
