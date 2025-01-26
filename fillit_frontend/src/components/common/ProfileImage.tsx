@@ -13,7 +13,11 @@ const ProfileImage = ({
     <img
       src={src}
       alt={alt}
-      className={`h-[${size}px] w-[${size}px] rounded-full object-cover`}
+      style={{
+        height: `${size}px`,
+        width: `${size}px`,
+      }}
+      className="rounded-full object-cover"
     />
   );
 };
