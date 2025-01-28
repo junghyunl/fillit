@@ -10,7 +10,7 @@ const Login = () => {
       <BasicInput placeholder="Enter your email" />
       <BasicInput placeholder="Enter your password" />
       <div className="w-[280px] flex justify-end">
-        <a className="text-xs font-light" href="/SignUp">
+        <a className="text-xs font-light" href="/signup">
           sign up
         </a>
       </div>
