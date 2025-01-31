@@ -23,6 +23,13 @@ import GoogleIcon from '@/assets/icons/google.svg';
 import NaverIcon from '@/assets/icons/naver.svg';
 import KakaoIcon from '@/assets/icons/kakao.svg';
 
+// like
+import LikeActiveIcon from '@/assets/icons/like-fill.svg';
+import LikeInactiveIcon from '@/assets/icons/like-outline.svg';
+
+// comment
+import CommentIcon from '@/assets/icons/comment.svg';
+
 export {
   HomeInactiveIcon,
   HomeActiveIcon,
@@ -43,4 +50,7 @@ export {
   GoogleIcon,
   NaverIcon,
   KakaoIcon,
+  LikeActiveIcon,
+  LikeInactiveIcon,
+  CommentIcon,
 };
