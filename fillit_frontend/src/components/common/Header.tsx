@@ -21,7 +21,7 @@ const Header = ({
   right,
 }: HeaderProps) => {
   return (
-    <header className="top-0 h-[57px] bg-white border-b flex justify-between items-center px-4">
+    <header className="fixed w-full top-0 h-[3.6rem] bg-white border-b flex justify-between items-center px-4">
       <div className="flex gap-3 flex items-center">
         {left === 'back' && <BackButton />}
         {left === 'home' && <LogoButton />}
